@@ -24,6 +24,7 @@ class ARView: UIView,AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControl
     var  eyeNode:SCNNode = { // 眼睛节点
         let node = SCNNode()
         node.camera = SCNCamera()
+        node.name = "camera"
         node.camera?.automaticallyAdjustsZRange = true;
         return node
     }()
@@ -42,10 +43,12 @@ class ARView: UIView,AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControl
     }
     private func initScene(){
         self.scnView.backgroundColor = UIColor.clear
-        self.scnView.frame = self.frame
+        self.scnView.frame = UIScreen.main.bounds
         self.addSubview(self.scnView)
         self.scnView.scene = SCNScene()
         self.scnView.scene?.rootNode.addChildNode(self.eyeNode)
+        
+        //  增加一个手势改变模型的距离
     }
     
     
@@ -53,7 +56,7 @@ class ARView: UIView,AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControl
         motionManager.gyroUpdateInterval = 60;
         motionManager.deviceMotionUpdateInterval = 1/30.0
         motionManager.showsDeviceMovementDisplay = true
-        motionManager.startDeviceMotionUpdates(using: .xMagneticNorthZVertical, to: OperationQueue.main) { (motion, error) in
+        motionManager.startDeviceMotionUpdates(using: .xTrueNorthZVertical, to: OperationQueue.main) { (motion, error) in
             if  let attitude = motion?.attitude,error == nil{
                 var vector = SCNVector3Zero
                 if (UIDevice.current.orientation.isPortrait) // home键靠右
@@ -88,7 +91,7 @@ class ARView: UIView,AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControl
         }
         let previewLayer = AVCaptureVideoPreviewLayer(session: session)
         previewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
-        previewLayer?.frame = self.bounds
+        previewLayer?.frame = UIScreen.main.bounds
         self.layer.addSublayer(previewLayer!)
         session.startRunning()
     }
@@ -97,9 +100,27 @@ class ARView: UIView,AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControl
     
     func addModelFile(file:URL,position:SCNVector3){
        let scene = try! SCNScene(url: file, options: nil)
-       let node = scene.rootNode
+       let node = scene.rootNode.clone()
        node.position = position
        self.scnView.scene?.rootNode.addChildNode(node)
+    }
+    func showModel(node: SCNNode,position:SCNVector3){
+         if  let nodes =   self.scnView.scene?.rootNode.childNodes {
+            for node in nodes {
+                if(node.name != "camera"){
+                    
+                     node.removeFromParentNode()
+                }
+                
+            }
+        }
+        
+        
+        let newNode = node.clone()
+        newNode.position = position
+        newNode.pivot = SCNMatrix4Rotate(newNode.pivot, Float.pi/2.0, 0, 1, 0)
+        newNode.pivot = SCNMatrix4Rotate(newNode.pivot, Float.pi/2.0, 0, 0, 1)
+        self.scnView.scene?.rootNode.addChildNode(newNode)
     }
     deinit {
        session.stopRunning()
