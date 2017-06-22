@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F53111701DFFF80700CB1003 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = F531116F1DFFF80700CB1003 /* sky.png */; };
+		F53111891E003D8000CB1003 /* cheqiyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F531117A1E003D8000CB1003 /* cheqiyu-1.png */; };
+		F531118A1E003D8000CB1003 /* denglongyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F531117B1E003D8000CB1003 /* denglongyu-1.png */; };
+		F531118B1E003D8000CB1003 /* dianmanyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F531117C1E003D8000CB1003 /* dianmanyu-1.png */; };
+		F531118C1E003D8000CB1003 /* dinianyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F531117D1E003D8000CB1003 /* dinianyu-1.png */; };
+		F531118D1E003D8000CB1003 /* fangyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F531117E1E003D8000CB1003 /* fangyu-1.png */; };
+		F531118F1E003D8000CB1003 /* hetun-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111801E003D8000CB1003 /* hetun-1.png */; };
+		F53111901E003D8000CB1003 /* jianyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111811E003D8000CB1003 /* jianyu-1.png */; };
+		F53111911E003D8000CB1003 /* jinqiangyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111821E003D8000CB1003 /* jinqiangyu-1.png */; };
+		F53111921E003D8000CB1003 /* shayu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111831E003D8000CB1003 /* shayu-1.png */; };
+		F53111931E003D8000CB1003 /* shiziyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111841E003D8000CB1003 /* shiziyu-1.png */; };
+		F53111941E003D8000CB1003 /* tianshiyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111851E003D8000CB1003 /* tianshiyu-1.png */; };
+		F53111951E003D8000CB1003 /* xiaochouyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111861E003D8000CB1003 /* xiaochouyu-1.png */; };
+		F53111961E003D8000CB1003 /* xiaohuangyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111871E003D8000CB1003 /* xiaohuangyu-1.png */; };
+		F53111971E003D8000CB1003 /* xiaolvyu-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111881E003D8000CB1003 /* xiaolvyu-1.png */; };
+		F53111991E003EC800CB1003 /* haigui-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111981E003EC800CB1003 /* haigui-1.png */; };
+		F53111A41E00D14400CB1003 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F53111A01E00D14400CB1003 /* Info.plist */; };
+		F53111A51E00D14400CB1003 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F53111A11E00D14400CB1003 /* iRate.bundle */; };
+		F53111A61E00D14400CB1003 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53111A31E00D14400CB1003 /* iRate.m */; };
+		F53111A81E00D57C00CB1003 /* DisplayViewController+Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111A71E00D57C00CB1003 /* DisplayViewController+Local.swift */; };
+		F53111AA1E00DFEC00CB1003 /* DisplayView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F53111A91E00DFEC00CB1003 /* DisplayView.bundle */; };
+		F53111C41E00E8F200CB1003 /* Array+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111AE1E00E8F200CB1003 /* Array+OSExtension.swift */; };
+		F53111C51E00E8F200CB1003 /* CMSampleBuffer+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111AF1E00E8F200CB1003 /* CMSampleBuffer+OSExtension.swift */; };
+		F53111C61E00E8F200CB1003 /* Dispatch+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B01E00E8F200CB1003 /* Dispatch+OSExtension.swift */; };
+		F53111C71E00E8F200CB1003 /* ExtSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B11E00E8F200CB1003 /* ExtSwift.swift */; };
+		F53111C81E00E8F200CB1003 /* GCImage+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B21E00E8F200CB1003 /* GCImage+OSExtension.swift */; };
+		F53111C91E00E8F200CB1003 /* NSData+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B31E00E8F200CB1003 /* NSData+OSExtension.swift */; };
+		F53111CA1E00E8F200CB1003 /* NSObject+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B41E00E8F200CB1003 /* NSObject+OSExtension.swift */; };
+		F53111CB1E00E8F200CB1003 /* OSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B51E00E8F200CB1003 /* OSConstant.swift */; };
+		F53111CC1E00E8F200CB1003 /* String+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B61E00E8F200CB1003 /* String+OSExtension.swift */; };
+		F53111CD1E00E8F200CB1003 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B71E00E8F200CB1003 /* UIAlertController+Extension.swift */; };
+		F53111CE1E00E8F200CB1003 /* UIApplication+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B81E00E8F200CB1003 /* UIApplication+OSExtension.swift */; };
+		F53111CF1E00E8F200CB1003 /* UIButton+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111B91E00E8F200CB1003 /* UIButton+OSExtension.swift */; };
+		F53111D01E00E8F200CB1003 /* UIControl+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BA1E00E8F200CB1003 /* UIControl+OSExtension.swift */; };
+		F53111D11E00E8F200CB1003 /* UIImage+Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BB1E00E8F200CB1003 /* UIImage+Detector.swift */; };
+		F53111D21E00E8F200CB1003 /* UIImagePickerController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BC1E00E8F200CB1003 /* UIImagePickerController+Extension.swift */; };
+		F53111D31E00E8F200CB1003 /* UIImageView+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BD1E00E8F200CB1003 /* UIImageView+OSExtension.swift */; };
+		F53111D41E00E8F200CB1003 /* UILabel+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BE1E00E8F200CB1003 /* UILabel+OSExtension.swift */; };
+		F53111D51E00E8F200CB1003 /* UImage+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111BF1E00E8F200CB1003 /* UImage+OSExtension.swift */; };
+		F53111D61E00E8F200CB1003 /* UINavigationBar+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111C01E00E8F200CB1003 /* UINavigationBar+OSExtension.swift */; };
+		F53111D71E00E8F200CB1003 /* UITabBarItem+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111C11E00E8F200CB1003 /* UITabBarItem+OSExtension.swift */; };
+		F53111D81E00E8F200CB1003 /* UIView+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111C21E00E8F200CB1003 /* UIView+OSExtension.swift */; };
+		F53111D91E00E8F200CB1003 /* UIViewController+OSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53111C31E00E8F200CB1003 /* UIViewController+OSExtension.swift */; };
+		F53111DD1E01078800CB1003 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = F53111DC1E01078800CB1003 /* detail.png */; };
+		F55C413A1DFFE0CF005D376C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C41391DFFE0CF005D376C /* AppDelegate.swift */; };
+		F55C413C1DFFE0CF005D376C /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C413B1DFFE0CF005D376C /* DisplayViewController.swift */; };
+		F55C413F1DFFE0CF005D376C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55C413D1DFFE0CF005D376C /* Main.storyboard */; };
+		F55C41411DFFE0CF005D376C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55C41401DFFE0CF005D376C /* Assets.xcassets */; };
+		F55C41441DFFE0CF005D376C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55C41421DFFE0CF005D376C /* LaunchScreen.storyboard */; };
+		F55C414F1DFFE0CF005D376C /* MarineAnimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C414E1DFFE0CF005D376C /* MarineAnimalTests.swift */; };
+		F55C415A1DFFE0D0005D376C /* MarineAnimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C41591DFFE0D0005D376C /* MarineAnimalUITests.swift */; };
+		F55C41771DFFE108005D376C /* cheqiyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41681DFFE108005D376C /* cheqiyu.dae */; };
+		F55C41781DFFE108005D376C /* denglongyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41691DFFE108005D376C /* denglongyu.dae */; };
+		F55C41791DFFE108005D376C /* dianmanyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416A1DFFE108005D376C /* dianmanyu.dae */; };
+		F55C417A1DFFE108005D376C /* dinianyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416B1DFFE108005D376C /* dinianyu.dae */; };
+		F55C417B1DFFE108005D376C /* fangyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416C1DFFE108005D376C /* fangyu.dae */; };
+		F55C417C1DFFE108005D376C /* haigui.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416D1DFFE108005D376C /* haigui.dae */; };
+		F55C417D1DFFE108005D376C /* hetun.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416E1DFFE108005D376C /* hetun.dae */; };
+		F55C417E1DFFE108005D376C /* jianyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C416F1DFFE108005D376C /* jianyu.dae */; };
+		F55C417F1DFFE108005D376C /* jinqiangyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41701DFFE108005D376C /* jinqiangyu.dae */; };
+		F55C41801DFFE108005D376C /* shayu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41711DFFE108005D376C /* shayu.dae */; };
+		F55C41811DFFE108005D376C /* shiziyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41721DFFE108005D376C /* shiziyu.dae */; };
+		F55C41821DFFE108005D376C /* tianshiyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41731DFFE108005D376C /* tianshiyu.dae */; };
+		F55C41831DFFE108005D376C /* xiaochouyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41741DFFE108005D376C /* xiaochouyu.dae */; };
+		F55C41841DFFE108005D376C /* xiaohuangyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41751DFFE108005D376C /* xiaohuangyu.dae */; };
+		F55C41851DFFE108005D376C /* xiaolvyu.dae in Resources */ = {isa = PBXBuildFile; fileRef = F55C41761DFFE108005D376C /* xiaolvyu.dae */; };
+		F55C41961DFFE110005D376C /* bianfuyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41871DFFE110005D376C /* bianfuyu.png */; };
+		F55C41971DFFE110005D376C /* denglongyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41881DFFE110005D376C /* denglongyu.png */; };
+		F55C41981DFFE110005D376C /* dianmanyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41891DFFE110005D376C /* dianmanyu.png */; };
+		F55C41991DFFE110005D376C /* dinianyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418A1DFFE110005D376C /* dinianyu.png */; };
+		F55C419A1DFFE110005D376C /* fangyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418B1DFFE110005D376C /* fangyu.png */; };
+		F55C419B1DFFE110005D376C /* haigui.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418C1DFFE110005D376C /* haigui.png */; };
+		F55C419C1DFFE110005D376C /* hetun.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418D1DFFE110005D376C /* hetun.png */; };
+		F55C419D1DFFE110005D376C /* jianyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418E1DFFE110005D376C /* jianyu.png */; };
+		F55C419E1DFFE110005D376C /* jinqiangyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C418F1DFFE110005D376C /* jinqiangyu.png */; };
+		F55C419F1DFFE110005D376C /* shayu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41901DFFE110005D376C /* shayu.png */; };
+		F55C41A01DFFE110005D376C /* shiziyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41911DFFE110005D376C /* shiziyu.png */; };
+		F55C41A11DFFE110005D376C /* tianshiyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41921DFFE110005D376C /* tianshiyu.png */; };
+		F55C41A21DFFE110005D376C /* xiaochouyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41931DFFE110005D376C /* xiaochouyu.png */; };
+		F55C41A31DFFE110005D376C /* xiaohuangyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41941DFFE110005D376C /* xiaohuangyu.png */; };
+		F55C41A41DFFE110005D376C /* xiaolvyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41951DFFE110005D376C /* xiaolvyu.png */; };
+		F55C41A61DFFE13B005D376C /* cheqiyu.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C41A51DFFE13B005D376C /* cheqiyu.png */; };
+		F56019801E45A0F500B61287 /* Brain.dae in Resources */ = {isa = PBXBuildFile; fileRef = F560197F1E45A0F500B61287 /* Brain.dae */; };
+		F56B4D041DFFE2F5007CE0E8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B4D031DFFE2F5007CE0E8 /* Animal.swift */; };
+		F56B4D091DFFE5EC007CE0E8 /* DisplayViewController+SCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B4D081DFFE5EC007CE0E8 /* DisplayViewController+SCNView.swift */; };
+		F56B4D0B1DFFE7CE007CE0E8 /* DisplayViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B4D0A1DFFE7CE007CE0E8 /* DisplayViewController+CollectionView.swift */; };
+		F56B4D101DFFEC61007CE0E8 /* DisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B4D0E1DFFEC61007CE0E8 /* DisplayCell.swift */; };
+		F56B4D111DFFEC61007CE0E8 /* DisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56B4D0F1DFFEC61007CE0E8 /* DisplayCell.xib */; };
+		F5A12C3C1EF96BF100D5EC3B /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A12C3B1EF96BF100D5EC3B /* ARView.swift */; };
+		F5A12C3E1EF96E1500D5EC3B /* ARViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A12C3D1EF96E1400D5EC3B /* ARViewProtocol.swift */; };
+		F5C7F8071E010FE80075B225 /* DisplayViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7F8061E010FE80075B225 /* DisplayViewController+UI.swift */; };
+		F5C7F80B1E0116B60075B225 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C7F80A1E0116B60075B225 /* background.jpg */; };
+		F5D5E4971E0133A90033ABBE /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5E4961E0133A90033ABBE /* launch.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55C414B1DFFE0CF005D376C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55C412E1DFFE0CF005D376C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55C41351DFFE0CF005D376C;
+			remoteInfo = MarineAnimal;
+		};
+		F55C41561DFFE0D0005D376C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55C412E1DFFE0CF005D376C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55C41351DFFE0CF005D376C;
+			remoteInfo = MarineAnimal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F531116F1DFFF80700CB1003 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		F531117A1E003D8000CB1003 /* cheqiyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cheqiyu-1.png"; sourceTree = "<group>"; };
+		F531117B1E003D8000CB1003 /* denglongyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglongyu-1.png"; sourceTree = "<group>"; };
+		F531117C1E003D8000CB1003 /* dianmanyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianmanyu-1.png"; sourceTree = "<group>"; };
+		F531117D1E003D8000CB1003 /* dinianyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dinianyu-1.png"; sourceTree = "<group>"; };
+		F531117E1E003D8000CB1003 /* fangyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fangyu-1.png"; sourceTree = "<group>"; };
+		F53111801E003D8000CB1003 /* hetun-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hetun-1.png"; sourceTree = "<group>"; };
+		F53111811E003D8000CB1003 /* jianyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jianyu-1.png"; sourceTree = "<group>"; };
+		F53111821E003D8000CB1003 /* jinqiangyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinqiangyu-1.png"; sourceTree = "<group>"; };
+		F53111831E003D8000CB1003 /* shayu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shayu-1.png"; sourceTree = "<group>"; };
+		F53111841E003D8000CB1003 /* shiziyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shiziyu-1.png"; sourceTree = "<group>"; };
+		F53111851E003D8000CB1003 /* tianshiyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tianshiyu-1.png"; sourceTree = "<group>"; };
+		F53111861E003D8000CB1003 /* xiaochouyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaochouyu-1.png"; sourceTree = "<group>"; };
+		F53111871E003D8000CB1003 /* xiaohuangyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaohuangyu-1.png"; sourceTree = "<group>"; };
+		F53111881E003D8000CB1003 /* xiaolvyu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaolvyu-1.png"; sourceTree = "<group>"; };
+		F53111981E003EC800CB1003 /* haigui-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "haigui-1.png"; sourceTree = "<group>"; };
+		F531119A1E00D11700CB1003 /* MarineAnimal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarineAnimal-Bridging-Header.h"; sourceTree = "<group>"; };
+		F53111A01E00D14400CB1003 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53111A11E00D14400CB1003 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		F53111A21E00D14400CB1003 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		F53111A31E00D14400CB1003 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		F53111A71E00D57C00CB1003 /* DisplayViewController+Local.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisplayViewController+Local.swift"; sourceTree = "<group>"; };
+		F53111A91E00DFEC00CB1003 /* DisplayView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DisplayView.bundle; sourceTree = "<group>"; };
+		F53111AE1E00E8F200CB1003 /* Array+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111AF1E00E8F200CB1003 /* CMSampleBuffer+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMSampleBuffer+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B01E00E8F200CB1003 /* Dispatch+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dispatch+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B11E00E8F200CB1003 /* ExtSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtSwift.swift; sourceTree = "<group>"; };
+		F53111B21E00E8F200CB1003 /* GCImage+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCImage+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B31E00E8F200CB1003 /* NSData+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B41E00E8F200CB1003 /* NSObject+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B51E00E8F200CB1003 /* OSConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSConstant.swift; sourceTree = "<group>"; };
+		F53111B61E00E8F200CB1003 /* String+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B71E00E8F200CB1003 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		F53111B81E00E8F200CB1003 /* UIApplication+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111B91E00E8F200CB1003 /* UIButton+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111BA1E00E8F200CB1003 /* UIControl+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111BB1E00E8F200CB1003 /* UIImage+Detector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Detector.swift"; sourceTree = "<group>"; };
+		F53111BC1E00E8F200CB1003 /* UIImagePickerController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Extension.swift"; sourceTree = "<group>"; };
+		F53111BD1E00E8F200CB1003 /* UIImageView+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111BE1E00E8F200CB1003 /* UILabel+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111BF1E00E8F200CB1003 /* UImage+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UImage+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111C01E00E8F200CB1003 /* UINavigationBar+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111C11E00E8F200CB1003 /* UITabBarItem+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111C21E00E8F200CB1003 /* UIView+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111C31E00E8F200CB1003 /* UIViewController+OSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+OSExtension.swift"; sourceTree = "<group>"; };
+		F53111DC1E01078800CB1003 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		F55C41361DFFE0CF005D376C /* MarineAnimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarineAnimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C41391DFFE0CF005D376C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55C413B1DFFE0CF005D376C /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisplayViewController.swift; path = ../DisplayViewController.swift; sourceTree = "<group>"; };
+		F55C413E1DFFE0CF005D376C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55C41401DFFE0CF005D376C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55C41431DFFE0CF005D376C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55C41451DFFE0CF005D376C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C414A1DFFE0CF005D376C /* MarineAnimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarineAnimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C414E1DFFE0CF005D376C /* MarineAnimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAnimalTests.swift; sourceTree = "<group>"; };
+		F55C41501DFFE0D0005D376C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C41551DFFE0D0005D376C /* MarineAnimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarineAnimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55C41591DFFE0D0005D376C /* MarineAnimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarineAnimalUITests.swift; sourceTree = "<group>"; };
+		F55C415B1DFFE0D0005D376C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55C41681DFFE108005D376C /* cheqiyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = cheqiyu.dae; sourceTree = "<group>"; };
+		F55C41691DFFE108005D376C /* denglongyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = denglongyu.dae; sourceTree = "<group>"; };
+		F55C416A1DFFE108005D376C /* dianmanyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = dianmanyu.dae; sourceTree = "<group>"; };
+		F55C416B1DFFE108005D376C /* dinianyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = dinianyu.dae; sourceTree = "<group>"; };
+		F55C416C1DFFE108005D376C /* fangyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = fangyu.dae; sourceTree = "<group>"; };
+		F55C416D1DFFE108005D376C /* haigui.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = haigui.dae; sourceTree = "<group>"; };
+		F55C416E1DFFE108005D376C /* hetun.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = hetun.dae; sourceTree = "<group>"; };
+		F55C416F1DFFE108005D376C /* jianyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = jianyu.dae; sourceTree = "<group>"; };
+		F55C41701DFFE108005D376C /* jinqiangyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = jinqiangyu.dae; sourceTree = "<group>"; };
+		F55C41711DFFE108005D376C /* shayu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = shayu.dae; sourceTree = "<group>"; };
+		F55C41721DFFE108005D376C /* shiziyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = shiziyu.dae; sourceTree = "<group>"; };
+		F55C41731DFFE108005D376C /* tianshiyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tianshiyu.dae; sourceTree = "<group>"; };
+		F55C41741DFFE108005D376C /* xiaochouyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = xiaochouyu.dae; sourceTree = "<group>"; };
+		F55C41751DFFE108005D376C /* xiaohuangyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = xiaohuangyu.dae; sourceTree = "<group>"; };
+		F55C41761DFFE108005D376C /* xiaolvyu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = xiaolvyu.dae; sourceTree = "<group>"; };
+		F55C41871DFFE110005D376C /* bianfuyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bianfuyu.png; sourceTree = "<group>"; };
+		F55C41881DFFE110005D376C /* denglongyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = denglongyu.png; sourceTree = "<group>"; };
+		F55C41891DFFE110005D376C /* dianmanyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dianmanyu.png; sourceTree = "<group>"; };
+		F55C418A1DFFE110005D376C /* dinianyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinianyu.png; sourceTree = "<group>"; };
+		F55C418B1DFFE110005D376C /* fangyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fangyu.png; sourceTree = "<group>"; };
+		F55C418C1DFFE110005D376C /* haigui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haigui.png; sourceTree = "<group>"; };
+		F55C418D1DFFE110005D376C /* hetun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hetun.png; sourceTree = "<group>"; };
+		F55C418E1DFFE110005D376C /* jianyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jianyu.png; sourceTree = "<group>"; };
+		F55C418F1DFFE110005D376C /* jinqiangyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinqiangyu.png; sourceTree = "<group>"; };
+		F55C41901DFFE110005D376C /* shayu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shayu.png; sourceTree = "<group>"; };
+		F55C41911DFFE110005D376C /* shiziyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiziyu.png; sourceTree = "<group>"; };
+		F55C41921DFFE110005D376C /* tianshiyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tianshiyu.png; sourceTree = "<group>"; };
+		F55C41931DFFE110005D376C /* xiaochouyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaochouyu.png; sourceTree = "<group>"; };
+		F55C41941DFFE110005D376C /* xiaohuangyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaohuangyu.png; sourceTree = "<group>"; };
+		F55C41951DFFE110005D376C /* xiaolvyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaolvyu.png; sourceTree = "<group>"; };
+		F55C41A51DFFE13B005D376C /* cheqiyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheqiyu.png; sourceTree = "<group>"; };
+		F560197F1E45A0F500B61287 /* Brain.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Brain.dae; sourceTree = "<group>"; };
+		F56B4D031DFFE2F5007CE0E8 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = ../Animal.swift; sourceTree = "<group>"; };
+		F56B4D081DFFE5EC007CE0E8 /* DisplayViewController+SCNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisplayViewController+SCNView.swift"; sourceTree = "<group>"; };
+		F56B4D0A1DFFE7CE007CE0E8 /* DisplayViewController+CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisplayViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		F56B4D0E1DFFEC61007CE0E8 /* DisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayCell.swift; sourceTree = "<group>"; };
+		F56B4D0F1DFFEC61007CE0E8 /* DisplayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayCell.xib; sourceTree = "<group>"; };
+		F5A12C3B1EF96BF100D5EC3B /* ARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARView.swift; path = "../../../../最近学习/SceneKit书籍/SceneKit_教程_Swift/第四十二节 - AR的实现/第四十二节 - AR的实现/ARView.swift"; sourceTree = "<group>"; };
+		F5A12C3D1EF96E1400D5EC3B /* ARViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARViewProtocol.swift; path = "../../../../最近学习/SceneKit书籍/SceneKit_教程_Swift/第四十二节 - AR的实现/第四十二节 - AR的实现/ARViewProtocol.swift"; sourceTree = "<group>"; };
+		F5C7F8061E010FE80075B225 /* DisplayViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisplayViewController+UI.swift"; sourceTree = "<group>"; };
+		F5C7F80A1E0116B60075B225 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F5D5E4961E0133A90033ABBE /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = DAE/launch.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55C41331DFFE0CF005D376C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41471DFFE0CF005D376C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41521DFFE0D0005D376C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53111791E003D8000CB1003 /* Icon 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F531117A1E003D8000CB1003 /* cheqiyu-1.png */,
+				F531117B1E003D8000CB1003 /* denglongyu-1.png */,
+				F531117C1E003D8000CB1003 /* dianmanyu-1.png */,
+				F531117D1E003D8000CB1003 /* dinianyu-1.png */,
+				F531117E1E003D8000CB1003 /* fangyu-1.png */,
+				F53111981E003EC800CB1003 /* haigui-1.png */,
+				F53111801E003D8000CB1003 /* hetun-1.png */,
+				F53111811E003D8000CB1003 /* jianyu-1.png */,
+				F53111821E003D8000CB1003 /* jinqiangyu-1.png */,
+				F53111831E003D8000CB1003 /* shayu-1.png */,
+				F53111841E003D8000CB1003 /* shiziyu-1.png */,
+				F53111851E003D8000CB1003 /* tianshiyu-1.png */,
+				F53111861E003D8000CB1003 /* xiaochouyu-1.png */,
+				F53111871E003D8000CB1003 /* xiaohuangyu-1.png */,
+				F53111881E003D8000CB1003 /* xiaolvyu-1.png */,
+			);
+			path = "Icon 2";
+			sourceTree = "<group>";
+		};
+		F531119E1E00D13D00CB1003 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F53111AD1E00E8F200CB1003 /* OSExtSwift */,
+				F531119F1E00D14400CB1003 /* iRate */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F531119F1E00D14400CB1003 /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				F53111A01E00D14400CB1003 /* Info.plist */,
+				F53111A11E00D14400CB1003 /* iRate.bundle */,
+				F53111A21E00D14400CB1003 /* iRate.h */,
+				F53111A31E00D14400CB1003 /* iRate.m */,
+			);
+			path = iRate;
+			sourceTree = "<group>";
+		};
+		F53111AD1E00E8F200CB1003 /* OSExtSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F53111AE1E00E8F200CB1003 /* Array+OSExtension.swift */,
+				F53111AF1E00E8F200CB1003 /* CMSampleBuffer+OSExtension.swift */,
+				F53111B01E00E8F200CB1003 /* Dispatch+OSExtension.swift */,
+				F53111B11E00E8F200CB1003 /* ExtSwift.swift */,
+				F53111B21E00E8F200CB1003 /* GCImage+OSExtension.swift */,
+				F53111B31E00E8F200CB1003 /* NSData+OSExtension.swift */,
+				F53111B41E00E8F200CB1003 /* NSObject+OSExtension.swift */,
+				F53111B51E00E8F200CB1003 /* OSConstant.swift */,
+				F53111B61E00E8F200CB1003 /* String+OSExtension.swift */,
+				F53111B71E00E8F200CB1003 /* UIAlertController+Extension.swift */,
+				F53111B81E00E8F200CB1003 /* UIApplication+OSExtension.swift */,
+				F53111B91E00E8F200CB1003 /* UIButton+OSExtension.swift */,
+				F53111BA1E00E8F200CB1003 /* UIControl+OSExtension.swift */,
+				F53111BB1E00E8F200CB1003 /* UIImage+Detector.swift */,
+				F53111BC1E00E8F200CB1003 /* UIImagePickerController+Extension.swift */,
+				F53111BD1E00E8F200CB1003 /* UIImageView+OSExtension.swift */,
+				F53111BE1E00E8F200CB1003 /* UILabel+OSExtension.swift */,
+				F53111BF1E00E8F200CB1003 /* UImage+OSExtension.swift */,
+				F53111C01E00E8F200CB1003 /* UINavigationBar+OSExtension.swift */,
+				F53111C11E00E8F200CB1003 /* UITabBarItem+OSExtension.swift */,
+				F53111C21E00E8F200CB1003 /* UIView+OSExtension.swift */,
+				F53111C31E00E8F200CB1003 /* UIViewController+OSExtension.swift */,
+			);
+			path = OSExtSwift;
+			sourceTree = "<group>";
+		};
+		F55C412D1DFFE0CF005D376C = {
+			isa = PBXGroup;
+			children = (
+				F55C41381DFFE0CF005D376C /* MarineAnimal */,
+				F55C414D1DFFE0CF005D376C /* MarineAnimalTests */,
+				F55C41581DFFE0D0005D376C /* MarineAnimalUITests */,
+				F55C41371DFFE0CF005D376C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55C41371DFFE0CF005D376C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55C41361DFFE0CF005D376C /* MarineAnimal.app */,
+				F55C414A1DFFE0CF005D376C /* MarineAnimalTests.xctest */,
+				F55C41551DFFE0D0005D376C /* MarineAnimalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55C41381DFFE0CF005D376C /* MarineAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				F531119E1E00D13D00CB1003 /* Framework */,
+				F56B4D051DFFE5CB007CE0E8 /* Controller */,
+				F56B4D061DFFE5CB007CE0E8 /* Model */,
+				F56B4D071DFFE5CB007CE0E8 /* View */,
+				F53111791E003D8000CB1003 /* Icon 2 */,
+				F55C41861DFFE110005D376C /* image */,
+				F55C41671DFFE108005D376C /* DAE */,
+				F55C41391DFFE0CF005D376C /* AppDelegate.swift */,
+				F5A12C3D1EF96E1400D5EC3B /* ARViewProtocol.swift */,
+				F5A12C3B1EF96BF100D5EC3B /* ARView.swift */,
+				F55C413D1DFFE0CF005D376C /* Main.storyboard */,
+				F55C41401DFFE0CF005D376C /* Assets.xcassets */,
+				F5D5E4961E0133A90033ABBE /* launch.png */,
+				F53111DC1E01078800CB1003 /* detail.png */,
+				F5C7F80A1E0116B60075B225 /* background.jpg */,
+				F55C41421DFFE0CF005D376C /* LaunchScreen.storyboard */,
+				F55C41451DFFE0CF005D376C /* Info.plist */,
+				F531119A1E00D11700CB1003 /* MarineAnimal-Bridging-Header.h */,
+			);
+			path = MarineAnimal;
+			sourceTree = "<group>";
+		};
+		F55C414D1DFFE0CF005D376C /* MarineAnimalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55C414E1DFFE0CF005D376C /* MarineAnimalTests.swift */,
+				F55C41501DFFE0D0005D376C /* Info.plist */,
+			);
+			path = MarineAnimalTests;
+			sourceTree = "<group>";
+		};
+		F55C41581DFFE0D0005D376C /* MarineAnimalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55C41591DFFE0D0005D376C /* MarineAnimalUITests.swift */,
+				F55C415B1DFFE0D0005D376C /* Info.plist */,
+			);
+			path = MarineAnimalUITests;
+			sourceTree = "<group>";
+		};
+		F55C41671DFFE108005D376C /* DAE */ = {
+			isa = PBXGroup;
+			children = (
+				F560197F1E45A0F500B61287 /* Brain.dae */,
+				F55C41681DFFE108005D376C /* cheqiyu.dae */,
+				F55C41691DFFE108005D376C /* denglongyu.dae */,
+				F55C416A1DFFE108005D376C /* dianmanyu.dae */,
+				F55C416B1DFFE108005D376C /* dinianyu.dae */,
+				F55C416C1DFFE108005D376C /* fangyu.dae */,
+				F55C416D1DFFE108005D376C /* haigui.dae */,
+				F55C416E1DFFE108005D376C /* hetun.dae */,
+				F55C416F1DFFE108005D376C /* jianyu.dae */,
+				F55C41701DFFE108005D376C /* jinqiangyu.dae */,
+				F55C41711DFFE108005D376C /* shayu.dae */,
+				F55C41721DFFE108005D376C /* shiziyu.dae */,
+				F55C41731DFFE108005D376C /* tianshiyu.dae */,
+				F55C41741DFFE108005D376C /* xiaochouyu.dae */,
+				F55C41751DFFE108005D376C /* xiaohuangyu.dae */,
+				F55C41761DFFE108005D376C /* xiaolvyu.dae */,
+			);
+			path = DAE;
+			sourceTree = "<group>";
+		};
+		F55C41861DFFE110005D376C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F531116F1DFFF80700CB1003 /* sky.png */,
+				F55C41A51DFFE13B005D376C /* cheqiyu.png */,
+				F55C41871DFFE110005D376C /* bianfuyu.png */,
+				F55C41881DFFE110005D376C /* denglongyu.png */,
+				F55C41891DFFE110005D376C /* dianmanyu.png */,
+				F55C418A1DFFE110005D376C /* dinianyu.png */,
+				F55C418B1DFFE110005D376C /* fangyu.png */,
+				F55C418C1DFFE110005D376C /* haigui.png */,
+				F55C418D1DFFE110005D376C /* hetun.png */,
+				F55C418E1DFFE110005D376C /* jianyu.png */,
+				F55C418F1DFFE110005D376C /* jinqiangyu.png */,
+				F55C41901DFFE110005D376C /* shayu.png */,
+				F55C41911DFFE110005D376C /* shiziyu.png */,
+				F55C41921DFFE110005D376C /* tianshiyu.png */,
+				F55C41931DFFE110005D376C /* xiaochouyu.png */,
+				F55C41941DFFE110005D376C /* xiaohuangyu.png */,
+				F55C41951DFFE110005D376C /* xiaolvyu.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F56B4D051DFFE5CB007CE0E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F55C413B1DFFE0CF005D376C /* DisplayViewController.swift */,
+				F5C7F8061E010FE80075B225 /* DisplayViewController+UI.swift */,
+				F56B4D081DFFE5EC007CE0E8 /* DisplayViewController+SCNView.swift */,
+				F56B4D0A1DFFE7CE007CE0E8 /* DisplayViewController+CollectionView.swift */,
+				F53111A71E00D57C00CB1003 /* DisplayViewController+Local.swift */,
+				F53111A91E00DFEC00CB1003 /* DisplayView.bundle */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F56B4D061DFFE5CB007CE0E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F56B4D031DFFE2F5007CE0E8 /* Animal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F56B4D071DFFE5CB007CE0E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F56B4D0E1DFFEC61007CE0E8 /* DisplayCell.swift */,
+				F56B4D0F1DFFEC61007CE0E8 /* DisplayCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55C41351DFFE0CF005D376C /* MarineAnimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C415E1DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimal" */;
+			buildPhases = (
+				F55C41321DFFE0CF005D376C /* Sources */,
+				F55C41331DFFE0CF005D376C /* Frameworks */,
+				F55C41341DFFE0CF005D376C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarineAnimal;
+			productName = MarineAnimal;
+			productReference = F55C41361DFFE0CF005D376C /* MarineAnimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55C41491DFFE0CF005D376C /* MarineAnimalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C41611DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimalTests" */;
+			buildPhases = (
+				F55C41461DFFE0CF005D376C /* Sources */,
+				F55C41471DFFE0CF005D376C /* Frameworks */,
+				F55C41481DFFE0CF005D376C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55C414C1DFFE0CF005D376C /* PBXTargetDependency */,
+			);
+			name = MarineAnimalTests;
+			productName = MarineAnimalTests;
+			productReference = F55C414A1DFFE0CF005D376C /* MarineAnimalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55C41541DFFE0D0005D376C /* MarineAnimalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55C41641DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimalUITests" */;
+			buildPhases = (
+				F55C41511DFFE0D0005D376C /* Sources */,
+				F55C41521DFFE0D0005D376C /* Frameworks */,
+				F55C41531DFFE0D0005D376C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55C41571DFFE0D0005D376C /* PBXTargetDependency */,
+			);
+			name = MarineAnimalUITests;
+			productName = MarineAnimalUITests;
+			productReference = F55C41551DFFE0D0005D376C /* MarineAnimalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55C412E1DFFE0CF005D376C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xujie;
+				TargetAttributes = {
+					F55C41351DFFE0CF005D376C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U3G5SY257L;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					F55C41491DFFE0CF005D376C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U3G5SY257L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F55C41351DFFE0CF005D376C;
+					};
+					F55C41541DFFE0D0005D376C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = U3G5SY257L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F55C41351DFFE0CF005D376C;
+					};
+				};
+			};
+			buildConfigurationList = F55C41311DFFE0CF005D376C /* Build configuration list for PBXProject "MarineAnimal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55C412D1DFFE0CF005D376C;
+			productRefGroup = F55C41371DFFE0CF005D376C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55C41351DFFE0CF005D376C /* MarineAnimal */,
+				F55C41491DFFE0CF005D376C /* MarineAnimalTests */,
+				F55C41541DFFE0D0005D376C /* MarineAnimalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55C41341DFFE0CF005D376C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D5E4971E0133A90033ABBE /* launch.png in Resources */,
+				F53111971E003D8000CB1003 /* xiaolvyu-1.png in Resources */,
+				F55C41441DFFE0CF005D376C /* LaunchScreen.storyboard in Resources */,
+				F53111961E003D8000CB1003 /* xiaohuangyu-1.png in Resources */,
+				F55C41801DFFE108005D376C /* shayu.dae in Resources */,
+				F55C41A21DFFE110005D376C /* xiaochouyu.png in Resources */,
+				F53111A51E00D14400CB1003 /* iRate.bundle in Resources */,
+				F56019801E45A0F500B61287 /* Brain.dae in Resources */,
+				F53111931E003D8000CB1003 /* shiziyu-1.png in Resources */,
+				F53111991E003EC800CB1003 /* haigui-1.png in Resources */,
+				F55C417F1DFFE108005D376C /* jinqiangyu.dae in Resources */,
+				F55C41A61DFFE13B005D376C /* cheqiyu.png in Resources */,
+				F55C41961DFFE110005D376C /* bianfuyu.png in Resources */,
+				F53111941E003D8000CB1003 /* tianshiyu-1.png in Resources */,
+				F55C41A11DFFE110005D376C /* tianshiyu.png in Resources */,
+				F55C41791DFFE108005D376C /* dianmanyu.dae in Resources */,
+				F55C41831DFFE108005D376C /* xiaochouyu.dae in Resources */,
+				F55C41821DFFE108005D376C /* tianshiyu.dae in Resources */,
+				F55C41981DFFE110005D376C /* dianmanyu.png in Resources */,
+				F531118C1E003D8000CB1003 /* dinianyu-1.png in Resources */,
+				F55C41811DFFE108005D376C /* shiziyu.dae in Resources */,
+				F55C41411DFFE0CF005D376C /* Assets.xcassets in Resources */,
+				F55C41781DFFE108005D376C /* denglongyu.dae in Resources */,
+				F531118B1E003D8000CB1003 /* dianmanyu-1.png in Resources */,
+				F55C417B1DFFE108005D376C /* fangyu.dae in Resources */,
+				F55C41A41DFFE110005D376C /* xiaolvyu.png in Resources */,
+				F56B4D111DFFEC61007CE0E8 /* DisplayCell.xib in Resources */,
+				F53111951E003D8000CB1003 /* xiaochouyu-1.png in Resources */,
+				F55C41991DFFE110005D376C /* dinianyu.png in Resources */,
+				F53111901E003D8000CB1003 /* jianyu-1.png in Resources */,
+				F55C41841DFFE108005D376C /* xiaohuangyu.dae in Resources */,
+				F53111911E003D8000CB1003 /* jinqiangyu-1.png in Resources */,
+				F55C41851DFFE108005D376C /* xiaolvyu.dae in Resources */,
+				F55C417A1DFFE108005D376C /* dinianyu.dae in Resources */,
+				F55C419E1DFFE110005D376C /* jinqiangyu.png in Resources */,
+				F55C417E1DFFE108005D376C /* jianyu.dae in Resources */,
+				F55C41A31DFFE110005D376C /* xiaohuangyu.png in Resources */,
+				F5C7F80B1E0116B60075B225 /* background.jpg in Resources */,
+				F53111A41E00D14400CB1003 /* Info.plist in Resources */,
+				F531118F1E003D8000CB1003 /* hetun-1.png in Resources */,
+				F55C419F1DFFE110005D376C /* shayu.png in Resources */,
+				F53111891E003D8000CB1003 /* cheqiyu-1.png in Resources */,
+				F53111DD1E01078800CB1003 /* detail.png in Resources */,
+				F531118A1E003D8000CB1003 /* denglongyu-1.png in Resources */,
+				F55C413F1DFFE0CF005D376C /* Main.storyboard in Resources */,
+				F55C41771DFFE108005D376C /* cheqiyu.dae in Resources */,
+				F55C419C1DFFE110005D376C /* hetun.png in Resources */,
+				F55C41971DFFE110005D376C /* denglongyu.png in Resources */,
+				F55C419D1DFFE110005D376C /* jianyu.png in Resources */,
+				F531118D1E003D8000CB1003 /* fangyu-1.png in Resources */,
+				F53111921E003D8000CB1003 /* shayu-1.png in Resources */,
+				F55C419B1DFFE110005D376C /* haigui.png in Resources */,
+				F53111AA1E00DFEC00CB1003 /* DisplayView.bundle in Resources */,
+				F55C41A01DFFE110005D376C /* shiziyu.png in Resources */,
+				F55C417C1DFFE108005D376C /* haigui.dae in Resources */,
+				F53111701DFFF80700CB1003 /* sky.png in Resources */,
+				F55C417D1DFFE108005D376C /* hetun.dae in Resources */,
+				F55C419A1DFFE110005D376C /* fangyu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41481DFFE0CF005D376C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41531DFFE0D0005D376C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55C41321DFFE0CF005D376C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53111D01E00E8F200CB1003 /* UIControl+OSExtension.swift in Sources */,
+				F53111CD1E00E8F200CB1003 /* UIAlertController+Extension.swift in Sources */,
+				F55C413C1DFFE0CF005D376C /* DisplayViewController.swift in Sources */,
+				F53111D81E00E8F200CB1003 /* UIView+OSExtension.swift in Sources */,
+				F53111D11E00E8F200CB1003 /* UIImage+Detector.swift in Sources */,
+				F53111C41E00E8F200CB1003 /* Array+OSExtension.swift in Sources */,
+				F53111C51E00E8F200CB1003 /* CMSampleBuffer+OSExtension.swift in Sources */,
+				F56B4D0B1DFFE7CE007CE0E8 /* DisplayViewController+CollectionView.swift in Sources */,
+				F53111CF1E00E8F200CB1003 /* UIButton+OSExtension.swift in Sources */,
+				F53111D41E00E8F200CB1003 /* UILabel+OSExtension.swift in Sources */,
+				F53111D91E00E8F200CB1003 /* UIViewController+OSExtension.swift in Sources */,
+				F53111CC1E00E8F200CB1003 /* String+OSExtension.swift in Sources */,
+				F5A12C3E1EF96E1500D5EC3B /* ARViewProtocol.swift in Sources */,
+				F53111A61E00D14400CB1003 /* iRate.m in Sources */,
+				F53111D61E00E8F200CB1003 /* UINavigationBar+OSExtension.swift in Sources */,
+				F53111D71E00E8F200CB1003 /* UITabBarItem+OSExtension.swift in Sources */,
+				F56B4D101DFFEC61007CE0E8 /* DisplayCell.swift in Sources */,
+				F56B4D091DFFE5EC007CE0E8 /* DisplayViewController+SCNView.swift in Sources */,
+				F53111CB1E00E8F200CB1003 /* OSConstant.swift in Sources */,
+				F53111C71E00E8F200CB1003 /* ExtSwift.swift in Sources */,
+				F53111D31E00E8F200CB1003 /* UIImageView+OSExtension.swift in Sources */,
+				F53111A81E00D57C00CB1003 /* DisplayViewController+Local.swift in Sources */,
+				F5A12C3C1EF96BF100D5EC3B /* ARView.swift in Sources */,
+				F53111D51E00E8F200CB1003 /* UImage+OSExtension.swift in Sources */,
+				F5C7F8071E010FE80075B225 /* DisplayViewController+UI.swift in Sources */,
+				F55C413A1DFFE0CF005D376C /* AppDelegate.swift in Sources */,
+				F53111CA1E00E8F200CB1003 /* NSObject+OSExtension.swift in Sources */,
+				F53111C91E00E8F200CB1003 /* NSData+OSExtension.swift in Sources */,
+				F53111D21E00E8F200CB1003 /* UIImagePickerController+Extension.swift in Sources */,
+				F53111CE1E00E8F200CB1003 /* UIApplication+OSExtension.swift in Sources */,
+				F56B4D041DFFE2F5007CE0E8 /* Animal.swift in Sources */,
+				F53111C81E00E8F200CB1003 /* GCImage+OSExtension.swift in Sources */,
+				F53111C61E00E8F200CB1003 /* Dispatch+OSExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41461DFFE0CF005D376C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C414F1DFFE0CF005D376C /* MarineAnimalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55C41511DFFE0D0005D376C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55C415A1DFFE0D0005D376C /* MarineAnimalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55C414C1DFFE0CF005D376C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55C41351DFFE0CF005D376C /* MarineAnimal */;
+			targetProxy = F55C414B1DFFE0CF005D376C /* PBXContainerItemProxy */;
+		};
+		F55C41571DFFE0D0005D376C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55C41351DFFE0CF005D376C /* MarineAnimal */;
+			targetProxy = F55C41561DFFE0D0005D376C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55C413D1DFFE0CF005D376C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55C413E1DFFE0CF005D376C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55C41421DFFE0CF005D376C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55C41431DFFE0CF005D376C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55C415C1DFFE0D0005D376C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F55C415D1DFFE0D0005D376C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55C415F1DFFE0D0005D376C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarineAnimal/MarineAnimal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55C41601DFFE0D0005D376C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarineAnimal/MarineAnimal-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F55C41621DFFE0D0005D376C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarineAnimal.app/MarineAnimal";
+			};
+			name = Debug;
+		};
+		F55C41631DFFE0D0005D376C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarineAnimal.app/MarineAnimal";
+			};
+			name = Release;
+		};
+		F55C41651DFFE0D0005D376C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MarineAnimal;
+			};
+			name = Debug;
+		};
+		F55C41661DFFE0D0005D376C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = MarineAnimalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xujie.MarineAnimalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MarineAnimal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55C41311DFFE0CF005D376C /* Build configuration list for PBXProject "MarineAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C415C1DFFE0D0005D376C /* Debug */,
+				F55C415D1DFFE0D0005D376C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C415E1DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C415F1DFFE0D0005D376C /* Debug */,
+				F55C41601DFFE0D0005D376C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C41611DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C41621DFFE0D0005D376C /* Debug */,
+				F55C41631DFFE0D0005D376C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55C41641DFFE0D0005D376C /* Build configuration list for PBXNativeTarget "MarineAnimalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55C41651DFFE0D0005D376C /* Debug */,
+				F55C41661DFFE0D0005D376C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55C412E1DFFE0CF005D376C /* Project object */;
+}
